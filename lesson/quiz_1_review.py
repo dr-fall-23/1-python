@@ -12,17 +12,17 @@ from typing import Dict, List
 
 # PROBLEM 1
 # Write the data type or data structure of each variable below
-# a
+# a)
 temp = 24.5
-# b
+# b)
 honors = False
-# c
+# c)
 student_1 = {"name": "George", "homeroom": 103}
-# d
+# d)
 message = "I love computer science!"
-# e
+# e)
 days = ["Monday", "Tuesday", "Wednesday"]
-# f
+# f)
 pointer = -2
 
 
@@ -45,64 +45,56 @@ def get_pop(cities: Dict) -> float:
 
 # PROBLEM 4
 # What will the following boolean expressions (predicates) output?
-# a
+# a)
 (True and False)
-# b
+# b)
 (True or True or True or False)
-# c
+# c)
 (not (3 > 0))
-# d
+# d)
 (not (2 + 2 == 5) or (False and False))
-# e
+# e)
 ("a" in ["a", "b", "c"] or (True != False))
 
 
-# PROBLEM 6
+# PROBLEM 5
 my_list = ["a", "b", "c", "d", "e", "f", "g", "h"]
 # What will the following lines of code output?
-# a
-# my_list[3]
-# b
-# my_list[-2]
-# c
-# len(my_list)
-# d
-# my_list[len(my_list)]
-# e
-# my_list[:]
-# f
-# my_list[1:]
-# g
-# my_list[1:6:2]
-# h
-# my_list[2::2]
-# i
-# my_list[4:1:-1]
-# j
-# my_list[::-1]
+# a) my_list[3]
+# b) my_list[-2]
+# c) len(my_list)
+# d) my_list[len(my_list)]
+# e) my_list[:]
+# f) my_list[1:]
+# g) my_list[1:6:2]
+# h) my_list[2::2]
+# i) my_list[4:1:-1]
+# j) my_list[::-1]
 
 
-# PROBLEM
+# PROBLEM 6
 # Consider the following list below:
 student_list_1 = [{"name": "Luke", "homeroom": 102, "final_grades": ("A-", "C", "B-")}, {"name": "George", "homeroom": 103, "final_grades": ("B", "A", "A-")},
                   {"name": "Raj", "homeroom": 103, "final_grades": ("A", "A", "B+")}]
 # a) What's the length of this list?
 # b) What type of data (string, integer, etc) is student_list_1[2] ?
 # c) What type of data (string, integer, etc) is student_list_1[-1]["final_grades"] ?
-print(student_list_1[-1]["final_grades"])
 # d) How can I access Raj's homeroom?
 # e) How can I access Raj's grades?
 # f) How can I access Luke's third grade?
+# g) You see a for loop as shown below. What data type is "item?"
+for item in student_list_1:
+    pass    # (pass is a placeholder, like None)
 
 
-# PROBLEM 5
+# PROBLEM 7
 # Write a function that checks if the given string has any vowels in it
 # Hint: you'll need a loop!
 def any_vowels(a_string: str) -> bool:
     pass    # Erase me and write your code here!
 
 
-# PROBLEM 7
+# PROBLEM 8
 TAX_RATE = 0.0625
 # You've been shopping online, and have a list of items in your cart. The website you're using
 # tells you the price of all your items combined, but you know that Massachusetts has a sales tax of 6.25%,
@@ -114,14 +106,14 @@ def get_cost_with_tax(items: List[float]) -> float:
     pass    # Erase me and write your code here!
 
 
-# PROBLEM 8
+# PROBLEM 9
 # Write a function similar to your answer for problem 7, but instead of using the variable TAX_RATE,
 # it takes in an argument representing the tax rate (meaning it will work even if the sales tax is not 6.25%)
 
 # Erase me and write your code here!
 
 
-# PROBLEM 9
+# PROBLEM 10
 # Given an integer n, return a list of every number from 1 to n, but:
 #   If the number is divisible by 3, add "Fizz" to the list instead
 #   If the number is divisible by 5, add "Buzz" to the list instead
