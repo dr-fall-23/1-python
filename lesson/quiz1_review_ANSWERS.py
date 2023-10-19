@@ -51,8 +51,6 @@ city_pops_1 = {"Los Angeles": 3.8, "New York": 8.3,
                "Chicago": 2.3, "San Francisco": 0.8, "Boston": 0.6}
 
 # Gets the total population of LA, NYC, and Chicago
-
-
 def get_pop(cities: Dict) -> float:
     return cities["Los Angeles"] + cities["New York"] + cities["Chicago"]
 
@@ -167,7 +165,7 @@ TAX_RATE = 0.0625
 # meaning each item will cost 6.25% more at checkout.
 # Using the TAX_RATE variable we gave you, write a function that gets the true cost of your shopping cart
 
-
+# Given a list of item prices, gets the total price, included a tax of 6.25%
 def get_cost_with_tax(items: List[float]) -> float:
     total_cost = 0
     for item in items:
@@ -183,6 +181,7 @@ print(get_cost_with_tax([10, 100]))    # 116.875
 # Write a function similar to your answer for problem 7, but instead of using the variable TAX_RATE,
 # it takes in an argument representing the tax rate (meaning it will work even if the sales tax is not 6.25%)
 
+# Given a list of item prices, gets the total prices, including the given tax rate
 def get_cost_with_tax_2(items: List[float], tax_rate: float) -> float:
     total_cost = 0
     for item in items:
