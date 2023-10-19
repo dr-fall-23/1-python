@@ -8,7 +8,9 @@ from typing import Dict, List
 
 # Misc. concepts to know:
 # Difference between strings, tuples, dictionaries, and lists
-#
+# Difference between a while loop and a for loop
+# How to append to a list, how to remove from a list
+# What modulo (%) is 
 
 # PROBLEM 1
 # Write the data type or data structure of each variable below
