@@ -91,7 +91,7 @@ for item in student_list_1:
 
 # PROBLEM 7
 # Write a function that checks if the given string has any vowels in it
-# Hint: you'll need a loop!
+# Hint: you'll need a loop, and also some way to check if a letter is a vowel
 def any_vowels(a_string: str) -> bool:
     pass    # Erase me and write your code here!
 
