@@ -73,8 +73,13 @@ my_list = ["a", "b", "c", "d", "e", "f", "g", "h"]
 # i) my_list[4:1:-1]
 # j) my_list[::-1]
 
-
 # PROBLEM 6
+letters = ["a", "e", "i", "u", "j"]
+#can we remove the non-vowel letter and print the updated letters list here 
+#Add one more vowel to the letters list
+
+
+# PROBLEM 7
 # Consider the following list below:
 student_list_1 = [{"name": "Luke", "homeroom": 102, "final_grades": ("A-", "C", "B-")}, {"name": "George", "homeroom": 103, "final_grades": ("B", "A", "A-")},
                   {"name": "Raj", "homeroom": 103, "final_grades": ("A", "A", "B+")}]
@@ -89,14 +94,14 @@ for item in student_list_1:
     pass    # (pass is a placeholder, like None)
 
 
-# PROBLEM 7
+# PROBLEM 8
 # Write a function that checks if the given string has any vowels in it
 # Hint: you'll need a loop, and also some way to check if a letter is a vowel
 def any_vowels(a_string: str) -> bool:
     pass    # Erase me and write your code here!
 
 
-# PROBLEM 8
+# PROBLEM 9
 TAX_RATE = 0.0625
 # You've been shopping online, and have a list of items in your cart. The website you're using
 # tells you the price of all your items combined, but you know that Massachusetts has a sales tax of 6.25%,
@@ -108,14 +113,14 @@ def get_cost_with_tax(items: List[float]) -> float:
     pass    # Erase me and write your code here!
 
 
-# PROBLEM 9
+# PROBLEM 10
 # Write a function similar to your answer for problem 7, but instead of using the variable TAX_RATE,
 # it takes in an argument representing the tax rate (meaning it will work even if the sales tax is not 6.25%)
 
 # Erase me and write your code here!
 
 
-# PROBLEM 10
+# PROBLEM 11
 # Given an integer n, return a list of every number from 1 to n, but:
 #   If the number is divisible by 3, add "Fizz" to the list instead
 #   If the number is divisible by 5, add "Buzz" to the list instead
