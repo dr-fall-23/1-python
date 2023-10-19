@@ -81,7 +81,7 @@ student_list_1 = [{"name": "Luke", "homeroom": 102, "final_grades": ("A-", "C", 
 # c) What type of data (string, integer, etc) is student_list_1[-1]["final_grades"] ?
 # d) How can I access Raj's homeroom?
 # e) How can I access Raj's grades?
-# f) How can I access Luke's third grade?
+# f) How can I access Luke's third grade (the B-)?
 # g) You see a for loop as shown below. What data type is "item?"
 for item in student_list_1:
     pass    # (pass is a placeholder, like None)
