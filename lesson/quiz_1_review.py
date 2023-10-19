@@ -21,7 +21,7 @@ honors = False
 # c)
 student_1 = {"name": "George", "homeroom": 103}
 # d)
-message = "I love computer science!"
+daily_message = "I love computer science!"
 # e)
 days = ["Monday", "Tuesday", "Wednesday"]
 # f)
