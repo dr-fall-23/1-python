@@ -69,7 +69,7 @@ my_list = ["a", "b", "c", "d", "e", "f", "g", "h"]
 # e) my_list[:]
 # f) my_list[1:]
 # g) my_list[1:6:2]
-# h) my_list[2::2]
+# h) my_list[3::2]
 # i) my_list[4:1:-1]
 # j) my_list[::-1]
 
